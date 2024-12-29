@@ -9,7 +9,7 @@ CC := g++ -std=c++17 # This is the main compiler (g++ using c++17 standard)
 SRCDIR := src
 BUILDDIR := build
 TARGETDIR := bin
-TARGET := ${TARGETDIR}/bfGenerate
+TARGET := ${TARGETDIR}/bfGen
  
 SRCEXT := cpp
 SOURCES := $(shell find $(SRCDIR) -type f -name *.$(SRCEXT))
